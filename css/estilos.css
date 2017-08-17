@@ -122,7 +122,7 @@ body {
           align-items: center; }
 
 .texto-encabezado .display-4 {
-  margin-top: 1rem; }
+  margin-top: 4rem; }
 
 .btn-primary {
   background-color: #12AFAF;
@@ -167,5 +167,13 @@ body {
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
+.agencia {
+  background: #12AFAF;
+  color: #FFF; }
+
+.agencia img {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
 
 /*# sourceMappingURL=estilos.css.map */

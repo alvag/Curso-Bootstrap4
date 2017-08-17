@@ -119,19 +119,19 @@ body{
 }
 
 .texto-encabezado {
-    flex: 1 1 auto;
-    display: flex;
-    align-items: center;
+	flex: 1 1 auto;
+	display: flex;
+	align-items: center;
 }
 
 .texto-encabezado .display-4{
-	margin-top: 1rem;
+	margin-top: 4rem;
 }
 
 .btn-primary {
-  // color: #fff;
-  background-color: $principal;
-  border-color: transparent;
+	// color: #fff;
+	background-color: $principal;
+	border-color: transparent;
 	margin-top: 1rem;
 	transition: all .5s ease;
 }
@@ -140,8 +140,8 @@ body{
 .btn-primary:focus,
 .btn-primary:active {
 	// color: #fff;
-  background-color: $secundario;
-  border-color: transparent;
+	background-color: $secundario;
+	border-color: transparent;
 	box-shadow: 0 0 0 0 transparent;
 }
 
@@ -162,4 +162,16 @@ body{
 	to{
 		transform: translateY(0);
 	}
+}
+
+// agencia
+.agencia{
+	background: $principal;
+	color: #FFF;
+}
+
+.agencia img{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
 }
