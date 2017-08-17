@@ -296,7 +296,7 @@ SECCION PIE DE PAGINA
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    font-size: 3rem;    
+    font-size: 3rem;
     color: $principal;
     text-decoration: none;
     z-index: 99999;
@@ -379,11 +379,11 @@ EMPIEZAN LAS MEDIAS QUERIES
         display: block;
         flex: 0 1 auto;
         margin-left: auto;
-        order: 1
+        order: 1;
     }
     #menu-principal ul {
         display: flex;
-        margin: 0 0 0 0
+        margin: 0;
     }
     #menu-principal ul li a {
         padding: .8rem;
@@ -391,17 +391,17 @@ EMPIEZAN LAS MEDIAS QUERIES
         margin: 0 .3rem;
         border-top: 0px;
         border-bottom: 4px solid transparent;
-        transition: all .5s ease
+        transition: all .5s ease;
     }
     #menu-principal ul li.active a,
     #menu-principal ul li a:hover {
         color: #12AFAF;
-        border-bottom: 4px solid
+        border-bottom: 4px solid;
     }
     .boton-buscar {
         margin-left: 1rem;
         margin-right: 0;
-        order: 2
+        order: 2;
     }
     #bloque-buscar {
         order: 3;
@@ -409,53 +409,53 @@ EMPIEZAN LAS MEDIAS QUERIES
         width: 20rem;
         right: 3rem;
         top: 2.8rem;
-        transition: all .5s ease
+        transition: all .5s ease;
     }
     .servicios article {
         margin: 1rem 0;
         flex-direction: column;
         align-items: center;
-        text-align: center
+        text-align: center;
     }
     .servicios img {
         flex: 0 0 160px;
         overflow: hidden;
         margin-right: 0;
         margin-bottom: 1rem;
-        transition: all 1s ease
+        transition: all 1s ease;
     }
     .servicios article:hover img {
         transform: rotateY(360deg);
-        transform-style: preserve-3d
+        transform-style: preserve-3d;
     }
     .servicios h3 a::after {
-        content: ""
+        content: "";
     }
     .servicios h3 {
         margin: 0 0 .5rem 0;
         font-size: 1.5rem;
         flex: 0 1 auto;
-        width: 100%
+        width: 100%;
     }
     .servicios h3 a {
         display: block;
-        width: 100%
+        width: 100%;
     }
     .servicios p {
-        width: 100%
+        width: 100%;
     }
     .servicios .btn-secondary {
-        margin-top: auto
+        margin-top: auto;
     }
     .paginas-internas .lista-servicios .col-md-4 {
-        display: flex
+        display: flex;
     }
     .paginas-internas .lista-servicios .item-servicios {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
     .paginas-internas .lista-servicios .item-servicios .btn-primary {
-        margin-top: auto
+        margin-top: auto;
     }
 }
 @media (min-width: 992px) {
@@ -468,18 +468,18 @@ EMPIEZAN LAS MEDIAS QUERIES
     }
     .tu-mejor-eleccion ul li {
         display: flex;
-        min-height: 7rem
+        min-height: 7rem;
     }
     .tu-mejor-eleccion ul li .fa {
         text-align: center;
         flex: 0 1 auto;
         margin-right: 1rem;
-        transition: all 1s ease
+        transition: all 1s ease;
     }
     .tu-mejor-eleccion ul li:hover .fa {
         transform: rotateY(360deg);
         transform-style: preserve-3d;
-        background: #12AFAF
+        background: $principal;
     }
     .contenedor-eleccion {
         flex: 1 0 0px

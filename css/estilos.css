@@ -444,7 +444,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 0 0 0; }
+    margin: 0; }
 
   #menu-principal ul li a {
     padding: .8rem;
@@ -452,8 +452,8 @@ EMPIEZAN LAS MEDIAS QUERIES
     margin: 0 .3rem;
     border-top: 0px;
     border-bottom: 4px solid transparent;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease; }
 
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
@@ -475,8 +475,8 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 20rem;
     right: 3rem;
     top: 2.8rem;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease; }
 
   .servicios article {
     margin: 1rem 0;
