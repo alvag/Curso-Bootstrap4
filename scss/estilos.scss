@@ -49,6 +49,7 @@ body {
     padding: 0 .5rem;
     background: transparent;
     color: #fff;
+    cursor: pointer;
 }
 .boton-buscar:focus,
 .boton-menu:focus {
@@ -330,6 +331,7 @@ ESTILOS PAGINA NOSOTROS
 }
 .paginas-internas .panel .panel-heading {
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
 .paginas-internas .panel .panel-heading a {
     background: $principal;
@@ -341,8 +343,7 @@ ESTILOS PAGINA NOSOTROS
     transition: all .5s ease;
 }
 .paginas-internas .panel .panel-heading a:hover {
-    background: $secundario;
-    color: #fff;
+    background: $secundario;    
 }
 /*-------------------------------------------
 ESTILOS PAGINA SERVICIOS

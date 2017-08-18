@@ -53,7 +53,8 @@ body {
   margin: 0;
   padding: 0 .5rem;
   background: transparent;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
 
 .boton-buscar:focus,
 .boton-menu:focus {
@@ -382,7 +383,8 @@ ESTILOS PAGINA NOSOTROS
   text-decoration: none; }
 
 .paginas-internas .panel .panel-heading {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-transform: uppercase; }
 
 .paginas-internas .panel .panel-heading a {
   background: #12AFAF;
@@ -395,8 +397,7 @@ ESTILOS PAGINA NOSOTROS
   transition: all .5s ease; }
 
 .paginas-internas .panel .panel-heading a:hover {
-  background: #009500;
-  color: #fff; }
+  background: #009500; }
 
 /*-------------------------------------------
 ESTILOS PAGINA SERVICIOS
