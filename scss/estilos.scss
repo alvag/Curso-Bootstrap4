@@ -302,7 +302,7 @@ SECCION PIE DE PAGINA
     text-decoration: none;
     z-index: 99999;
     line-height: 0;
-    // display: none;
+    display: none;
     transition: all .5s ease;
 }
 .ir-arriba:hover,
@@ -343,7 +343,7 @@ ESTILOS PAGINA NOSOTROS
     transition: all .5s ease;
 }
 .paginas-internas .panel .panel-heading a:hover {
-    background: $secundario;    
+    background: $secundario;
 }
 /*-------------------------------------------
 ESTILOS PAGINA SERVICIOS
